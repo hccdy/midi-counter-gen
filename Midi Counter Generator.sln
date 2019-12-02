@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Midi Counter Generator", "Midi Counter Generator.csproj", "{5E5831B6-BF11-4C3D-9A28-CB26C4DBDB4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E5831B6-BF11-4C3D-9A28-CB26C4DBDB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5831B6-BF11-4C3D-9A28-CB26C4DBDB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5831B6-BF11-4C3D-9A28-CB26C4DBDB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5831B6-BF11-4C3D-9A28-CB26C4DBDB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {029DE13D-6744-414C-BB17-4989A60C25D6}
+	EndGlobalSection
+EndGlobal
