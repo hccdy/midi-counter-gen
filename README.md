@@ -5,4 +5,4 @@ If you want to generate a counter for a MIDI, you will have 3 choices:
 3. Use **CJC's Midi Counter Generator**. This is the best choice because it won't load the whole MIDI but it's as fast as Keppy's Counter Generator, and it supports zipped files! The largest MIDI's counter it generated contains 54 trillion notes and the extracted file size will be 150TB!
 
 ## Downloads
-Version 4.3.0.0: https://cdn.discordapp.com/attachments/638200869799591956/647403798612017153/Release.7z
+Version 4.4.0.0: [Direct Download Link](https://cdn.discordapp.com/attachments/638200869799591956/654490084543823893/Release.7z)
