@@ -568,7 +568,7 @@ namespace Midi_Counter_Generator
                         cmd = tr.Read();
                         if (cmd == 0)
                         {
-                            tr.Skip(1);
+                            tr.Skip(3);
                         }
                         else if (cmd >= 1 && cmd <= 10 || cmd == 0x7f)
                         {
@@ -788,7 +788,7 @@ namespace Midi_Counter_Generator
                                 cmd = go();
                                 if (cmd == 0)
                                 {
-                                    go();
+                                    go(); go(); go();
                                 }
                                 else if (cmd >= 1 && cmd <= 10 && cmd != 5 || cmd == 0x7f)
                                 {
@@ -1152,8 +1152,8 @@ namespace Midi_Counter_Generator
                         cmd = get();
                         if (cmd == 0)
                         {
-                            ReadByte();
-                            leng--;
+                            ReadByte(); ReadByte(); ReadByte();
+                            leng-=3;
                         }
                         else if (cmd >= 1 && cmd <= 10 && cmd != 5 || cmd == 0x7f)
                         {
@@ -1369,7 +1369,7 @@ namespace Midi_Counter_Generator
     {
         static void Main(string[] args)
         {
-            Console.Title = ("Midi Counter Generator Version 4.3.0.0 by Conjac Jelly Charlieyan");
+            Console.Title = ("Midi Counter Generator Version 4.4.0.0 by Conjac Jelly Charlieyan");
             mainpart bsp = new mainpart();
             bsp.read();
             bsp.Render();
